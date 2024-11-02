@@ -12,16 +12,9 @@ Initially, the entire dataset was explored and then a specific time period was s
 - **Validation data:** from July 2023 till Dec 2023.
 - **Testing data:** first two months of 2024.
 
-The raw, interim, and preprocessed datasets can be located in their corresponding subfolders in the main [data](data) directory.
-
-## Stock Prediction Details
-The project is implemented in three consecutive phases simulating the essential data processing and analysis steps. <br/>
-- Each phase is represented in a corresponding notebook inside the [notebooks](notebooks) directory.
-- Intermediary data files are stored inside the [data](data) directory.
-- Auxiliary and final models are stored inside the [models](models) directory.
 
 ### PHASE 1 - Explanatory Data Analysis
-> Corresponding notebook:  [data-explanatory-analysis.ipynb](https://github.com/sinanw/lstm-stock-price-prediction/blob/main/notebooks/1-data-explanatory-analysis.ipynb)
+> Corresponding notebook:  [data-explanatory-analysis.ipynb](https://github.com/Susanta2102/DeepStock/blob/main/Data-Explanatory-Analysis.ipynb)
 
 Implemented data exploration tasks:
 1. Download and load the raw dataset file.
@@ -33,7 +26,7 @@ Implemented data exploration tasks:
 
 
 ### PHASE 2 - Data Preprocessing
-> Corresponding notebook:  [data-preprocessing.ipynb](https://github.com/sinanw/lstm-stock-price-prediction/blob/main/notebooks/2-data-preprocessing.ipynb)
+> Corresponding notebook:  [data-preprocessing.ipynb](https://github.com/Susanta2102/DeepStock/blob/main/Data-Preprocessing.ipynb)
 
 Implemented data processing and transformation tasks:
 1. Load the filtered dataset file.
@@ -44,7 +37,7 @@ Implemented data processing and transformation tasks:
 6. Store processed data files (train, validate, test) to a local folder.
 
 ### PHASE 3 - Model Training and Inference
-> Corresponding notebook:  [model-training.ipynb](https://github.com/sinanw/lstm-stock-price-prediction/blob/main/notebooks/3-model-training.ipynb)
+> Corresponding notebook:  [model-training.ipynb](https://github.com/Susanta2102/DeepStock/blob/main/model-training.ipynb)
 
 Implemented training and prediction tasks:
 1. Load preprocessed dataset files (train, validate, test).
@@ -68,10 +61,10 @@ Implemented training and prediction tasks:
 ## Prediction Results
 
 Google stock price predictions with LSTM:
-![Google stock price predictions with LSTM](reports/figures/google_stock_price_predictions.png)
+![Google stock price predictions with LSTM](https://github.com/Susanta2102/DeepStock/blob/main/output%201.png)
 
 
 
 Google stock price predictions with LSTM (last 50 financial days):
-![Google stock price predictions with LSTM](reports/figures/google_stock_price_predictions_last_50d.png)
+![Google stock price predictions with LSTM](https://github.com/Susanta2102/DeepStock/blob/main/output%202.png)
 
